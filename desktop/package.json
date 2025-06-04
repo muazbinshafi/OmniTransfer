@@ -1,0 +1,24 @@
+{
+  "name": "omnitransfer-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OmniTransfer desktop app — cross-platform wireless file transfer. Developed by MuazBinShafi.",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "build:msi": "tauri build --bundles msi",
+    "build:nsis": "tauri build --bundles nsis",
+    "build:dmg": "tauri build --bundles dmg",
+    "build:deb": "tauri build --bundles deb",
+    "build:rpm": "tauri build --bundles rpm",
+    "build:appimage": "tauri build --bundles appimage",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.6.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.6.0"
+  }
+}

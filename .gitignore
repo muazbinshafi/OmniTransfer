@@ -1,0 +1,54 @@
+# Rust
+target/
+Cargo.lock
+*.rs.bk
+.cargo/
+
+# Node
+node_modules/
+dist/
+.pnpm-store/
+pnpm-lock.yaml
+
+# Tauri
+src-tauri/target/
+*.dmg
+*.deb
+*.rpm
+*.msi
+*.AppImage
+*.app/
+
+# Capacitor / Android
+omnitransfer/mobile/android/.gradle/
+omnitransfer/mobile/android/app/build/
+omnitransfer/mobile/android/local.properties
+*.keystore
+*.jks
+
+# Capacitor / iOS
+omnitransfer/mobile/ios/App/Pods/
+omnitransfer/mobile/ios/App/App.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.production
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build cache
+.tsbuildinfo
